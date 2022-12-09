@@ -1,0 +1,91 @@
+/* .App {
+  text-align: center;
+} */
+
+.main-div {
+  width: 50%;
+  /* box-shadow: 5px 0 30px rgba(1,41,112,0.08); */
+  box-shadow: 5px 0 30px rgb(15 41 112 / 12%);
+  margin-left: 25%;
+}
+
+.nav {
+  background-color: #44bfc0;
+  color: #fff;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 90%;
+}
+
+.traits {
+  display: flex;
+  justify-content: end;
+}
+
+.dot {
+  width: 15px;
+  background-color: red;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.green {
+  background-color: green !important;
+}
+
+.gray {
+  background-color: #d5cdcd !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-space-arround {
+  justify-content: space-around;
+}
+
+.schema-div {
+  padding: 10px 0px;
+  border: 2px solid #44bfc0;
+}
+
+select {
+  width: 90%;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.add-schema {
+  margin-top: 20px;
+}
+
+.add-new-schema {
+  cursor: pointer;
+  /* color: #44bfc0; */
+  color: green;
+  margin-bottom: 150px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background: green;
+  margin-left: 10px;
+  border: none;
+}
+.cancel{
+  color: red !important;
+  background: #fff !important;
+}
+.sigment-remove{
+  font-size: 32px;
+  cursor: pointer;
+}
